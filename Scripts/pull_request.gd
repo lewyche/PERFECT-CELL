@@ -9,4 +9,4 @@ export var pull_speed = 10
 
 func function(affected_cell):
 	var force = affected_cell.position.direction_to(parent_cell.position)
-	affected_cell.move(force, pull_speed)
+	affected_cell.apply_central_impulse(force * pull_speed)

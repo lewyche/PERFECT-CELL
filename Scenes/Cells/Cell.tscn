@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scripts/Cell.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Cells/Base.tscn" type="PackedScene" id=2]
-[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Assets/icon.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 30.1496
