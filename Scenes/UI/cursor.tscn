@@ -23,4 +23,8 @@ shape = SubResource( 1 )
 [node name="push_request" parent="requests" instance=ExtResource( 3 )]
 push_speed = 150
 
+[node name="holding_cell" type="Node" parent="."]
+
+[node name="holding_cell_sprite" type="Sprite" parent="."]
+
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
